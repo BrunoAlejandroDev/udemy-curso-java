@@ -1,0 +1,9 @@
+package entitites;
+
+public class ImportedProduct {
+
+	private double customFee;
+	
+	
+	
+}

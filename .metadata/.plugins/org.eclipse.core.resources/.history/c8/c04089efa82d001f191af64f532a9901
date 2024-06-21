@@ -1,0 +1,14 @@
+package entities;
+
+public class SavingsAccount extends Account {
+
+	// ATRIBUTOS
+	private double interestRate;
+	
+	// CONSTRUTOR
+	public SavingsAccount(Integer numberAccount, String holder, double balance, double interestRate) {
+		super(numberAccount, holder, balance);
+		this.interestRate = interestRate;
+	}
+	
+}

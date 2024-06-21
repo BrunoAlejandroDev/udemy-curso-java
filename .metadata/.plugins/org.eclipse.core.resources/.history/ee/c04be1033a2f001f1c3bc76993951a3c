@@ -1,0 +1,21 @@
+package entitites;
+
+public class Products {
+
+	// ATRIBUTOS
+	private String name;
+	private Double price;
+	
+	// CONSTRUTOR
+	public Products() {
+		
+	}
+
+	public Products(String name, Double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	
+	
+}

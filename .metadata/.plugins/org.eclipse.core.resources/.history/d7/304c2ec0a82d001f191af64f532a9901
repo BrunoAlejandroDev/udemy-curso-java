@@ -1,0 +1,10 @@
+package entities;
+
+public class SavingsAccount extends Account {
+
+	// ATRIBUTOS
+	private double interestRate;
+	
+	// CONSTRUTOR
+	
+}

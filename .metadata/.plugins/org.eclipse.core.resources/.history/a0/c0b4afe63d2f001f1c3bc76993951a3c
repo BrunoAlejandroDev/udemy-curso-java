@@ -1,0 +1,32 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entitites.Products;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		// INICIALIZAÇÃO
+		Locale.setDefault(Locale.US);
+		Scanner input = new Scanner(System.in);
+		List <Products> listProducts = new ArrayList<>();
+		
+		System.out.print("Enter the number of products: ");
+		int numberP = input.nextInt();
+		
+		// inserir os produtos na lista 
+		for (int i = 1; i <= numberP; i++) {
+			System.out.println("Product #" + i + " data:");
+		}
+		
+		
+		input.close();
+		
+	}
+
+}

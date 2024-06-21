@@ -1,0 +1,28 @@
+package application;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+import entities.Comment;
+import entities.Post;
+
+public class Program2 {
+
+	public static void main(String[] args) throws ParseException {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+		
+		// POST 1
+		Post post1 = new Post( "Estudando Java", "Continuando a aprender sobre composição de classes em Java!", 12);
+		
+		Comment c1 = new Comment("Alairton" ,"Parabéns pelo esforço, Bruno!");
+		Comment c2 = new Comment("Mariana", "Que legal, Java é tudo de bom kkkkk");
+		
+		post1.addComment(c1);
+		post1.addComment(c2);
+		
+		System.out.println(post1.toString());
+	
+	}
+
+}

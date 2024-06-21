@@ -1,0 +1,102 @@
+package entities;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class Post {
+	
+	// Classe para formatoção das datas dos posts
+	public static SimpleDateFormat spf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+	
+	// atributos
+	private Date moment;
+	private String title;
+	private String content;
+	private Integer like;
+	
+	private final List<Comment> comments; // normalmente, coleções não recebem o setter, mas sim métodos de adicionar e remover
+
+	// inicio construtores
+	public Post(Date moment, String title, String content, Integer like) {
+		this.moment = moment;
+		this.title = title;
+		this.content = content;
+		this.like = like;
+		this.comments = new ArrayList<>();
+	} 
+	
+	public Post() {
+		
+	}
+	// fim construtores
+	
+	// inicio metodos publicos
+	public void addComment(Comment comment) {
+		comments.add(comment);
+	}
+	
+	public void removeComment(Comment comment) {
+		comments.remove(comment);
+	}
+	// fim metodos publicos
+	
+	// inicio toString
+	public String toString() {
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append(this.getTitle() + "\n");
+		sb.append(this.getContent() + "\n");
+		sb.append(this.getLike());
+		sb.append(" Likes - ");
+		sb.append(spf.format(this.getMoment()) + "\n\n");
+		sb.append("Comments:" + "\n");
+		for (Comment c : comments) {
+			sb.append(c.getName() + " - ");
+			sb.append(c.getText() + "\n");
+		}
+		
+		return sb.toString();
+	}
+	
+	
+	// inicio getters e setters
+	public Date getMoment() {
+		return moment;
+	}
+
+	public void setMoment(Date moment) {
+		this.moment = moment;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public Integer getLike() {
+		return like;
+	}
+
+	public void setLike(Integer like) {
+		this.like = like;
+	}
+
+	public List<Comment> getComments() {
+		return comments;
+	}	
+	// fim getters e setters
+	
+}
