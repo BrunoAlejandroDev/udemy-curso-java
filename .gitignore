@@ -1,5 +1,7 @@
 /.metadata/
 
+/.metadata/.plugins
+
 # Compiled class files
 *.class
 
@@ -39,6 +41,7 @@ tmp/
 local.properties
 .loadpath
 .factorypath
+.plugins
 
 # VS Code project files
 .vscode/
