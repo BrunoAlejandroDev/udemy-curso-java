@@ -1,18 +1,23 @@
+# Eclipse project files
 /.metadata/
-
-/.metadata/.plugins
+/.settings/
+/bin/
+/tmp/
+/.classpath
+/.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
 
 # Compiled class files
 *.class
 
 # Log files
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
 # Package Files #
 *.jar
@@ -23,25 +28,9 @@
 *.tar.gz
 *.rar
 
-# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
-
-# Eclipse project files
-.settings/
-bin/
-tmp/
-.metadata
-.classpath
-.project
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-.factorypath
-.plugins
 
 # VS Code project files
 .vscode/
