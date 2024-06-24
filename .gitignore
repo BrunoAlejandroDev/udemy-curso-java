@@ -1,8 +1,8 @@
-.metadata/
+.metadata\
 
-.metadata/.mylyn
+.metadata\.mylyn
 
-.metadata/.plugins
+.metadata\.plugins
 
 .metadata
 
