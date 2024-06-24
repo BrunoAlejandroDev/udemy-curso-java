@@ -1,7 +1,0 @@
-package entities;
-
-public class Animal {
-    void makeSound() {
-        System.out.println("Som de animal");
-    }
-}

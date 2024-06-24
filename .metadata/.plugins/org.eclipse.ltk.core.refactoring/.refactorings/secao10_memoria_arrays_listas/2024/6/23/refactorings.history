@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename source folder &apos;secao10_memoria_arrays_listas/src&apos; to &apos;secao10&apos;&#x0D;&#x0A;- Original project: &apos;secao10_memoria_arrays_listas&apos;&#x0D;&#x0A;- Original element: &apos;secao10_memoria_arrays_listas/src&apos;&#x0D;&#x0A;- Renamed element: &apos;src&apos;" description="Rename source folder &apos;src&apos;" id="org.eclipse.jdt.ui.rename.source.folder" input="/src" name="secao10" stamp="1717437987386" version="1.0"/>
-</session>

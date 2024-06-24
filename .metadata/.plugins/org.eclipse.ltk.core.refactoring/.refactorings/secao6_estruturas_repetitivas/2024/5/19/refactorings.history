@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;estruturas_repetitivas&apos; to &apos;estruturas_repetitivas_while&apos;&#x0D;&#x0A;- Original project: &apos;estruturas_repetitivas&apos;&#x0D;&#x0A;- Original element: &apos;estruturas_repetitivas/src/estruturas_repetitivas&apos;&#x0D;&#x0A;- Renamed element: &apos;estruturas_repetitivas/src/estruturas_repetitivas_while&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;estruturas_repetitivas&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;estruturas_repetitivas" name="estruturas_repetitivas_while" qualified="false" references="true" stamp="1715017232110" textual="false" version="1.0"/>
-</session>

@@ -1,7 +1,0 @@
-package entities;
-
-public class Dog {
-    void makeSound() {
-        System.out.println("Som de cachorro");
-    }
-}
