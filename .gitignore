@@ -1,10 +1,4 @@
-.metadata\
-
-.metadata\.mylyn
-
-.metadata\.plugins
-
-.metadata
+/.metadata/
 
 # Compiled class files
 *.class
