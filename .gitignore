@@ -1,5 +1,11 @@
 .metadata/
 
+.metadata/.mylyn
+
+.metadata/.plugins
+
+.metadata
+
 # Compiled class files
 *.class
 
