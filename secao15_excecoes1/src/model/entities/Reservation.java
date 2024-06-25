@@ -50,7 +50,8 @@ public class Reservation {
 
 	@Override
 	public String toString() {
-		return "Reserva" + 
+		System.out.println();
+		return "====== Reserva ======" + 
 				"\nNumero do quarto: " + numeroDoQuarto + 
 				"\ncheckIn: " + sdf.format(checkIn) + 
 				"\ncheckOut: " + sdf.format(checkOut) +
